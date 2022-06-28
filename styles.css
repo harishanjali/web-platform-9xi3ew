@@ -8,6 +8,7 @@ body {
   color: black;
   background-color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -17,4 +18,13 @@ div {
   width: 200px;
   background-color: red;
   border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+div > div {
+  background-color: green;
+  height: 100px;
+  width: 100px;
 }
